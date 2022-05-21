@@ -18,6 +18,13 @@ body
     transform: translate(-50%,-50%);
     position: absolute;
 }
+.contact-box h1
+{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
 form
 {
     margin: 35px;
