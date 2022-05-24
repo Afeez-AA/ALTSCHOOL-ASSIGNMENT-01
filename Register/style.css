@@ -1,0 +1,77 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: #efefef;
+    font-family: sans-serif;
+}
+.registration-form
+{
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 #999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    margin-top: 40px;
+    z-index: -3;
+    background-color: #ecf0f3;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px #ffffff,
+                     5px    5px 12px rgba(0,0,0,.16);
+    
+}
+input{
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #ffffff,
+                inset 5px 5px 12px rgba(0,0,0,.16);
+    border-radius: 30px;
+}
+.registration-form h1
+{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+form
+{
+    margin: 35px;
+}
+.registration-form input
+{
+    font-size: 16px;
+    width: 100%;
+    padding: 10px px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid #779;
+}
+.registration-form button
+{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 5px;
+    border: 0;
+    background-color: #47c35a;
+    color:#fff;
+    border: none;
+    cursor: pointer;
+}
+.registration-form button:hover
+{
+    color: blue;
+}
+

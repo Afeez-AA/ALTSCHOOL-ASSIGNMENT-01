@@ -11,12 +11,22 @@ body
 .contact-box
 {
     width: 500px;
-    background-color: #fff;
     box-shadow: 0 0 20px 0 #999;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     position: absolute;
+    background-color: #ecf0f3;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px #ffffff,
+                     5px    5px 12px rgba(0,0,0,.16);
+    
+}
+input{
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #ffffff,
+                inset 5px 5px 12px rgba(0,0,0,.16);
+    border-radius: 30px;
 }
 .contact-box h1
 {
@@ -44,6 +54,7 @@ form
 {
     height: 150px;
     padding-top: 10px;
+    
 }
 .btn
 {
@@ -56,5 +67,9 @@ form
     border: none;
     cursor: pointer;
 
+}
+.contact-box button:hover
+{
+    color: blue;
 }
 
